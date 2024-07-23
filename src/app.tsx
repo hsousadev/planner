@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     element: <CreateTripPage />,
   },
   {
-    path: "/trip-details",
+    path: "/trips/:tripId",
     element: <TripDetailsPage />,
   },
 ]);
