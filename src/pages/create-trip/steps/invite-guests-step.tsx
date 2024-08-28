@@ -12,7 +12,7 @@ export function InviteGuestsStep({
   openGuestsModal,
 }: InviteGuestsStepProps) {
   return (
-    <div className="h-16 bg-zinc-900 px-4 rounded-xl flex items-center shadow-shape gap-3">
+    <div className="h-16 bg-zinc-100 px-4 rounded-xl flex items-center  gap-3">
       <button
         type="button"
         onClick={openGuestsModal}
@@ -20,7 +20,7 @@ export function InviteGuestsStep({
       >
         <UserRoundPlus className="size-5 text-zinc-400" />
         {emailsToInvite.length > 0 ? (
-          <span className="text-zinc-100 outline-none text-lg flex-1">
+          <span className="text-zinc-900 outline-none text-lg flex-1">
             {emailsToInvite.length} pessoa(s) convidada(s)
           </span>
         ) : (
@@ -30,7 +30,7 @@ export function InviteGuestsStep({
         )}
       </button>
 
-      <div className="w-px h-6 bg-zinc-800" />
+      <div className="w-px h-6 bg-zinc-600" />
 
       <button
         onClick={openConfirmTripModal}

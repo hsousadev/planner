@@ -81,7 +81,7 @@ export function CreateTripPage() {
       <div className="max-w-3xl w-full px-6 text-center space-y-10">
         <div className="flex flex-col items-center justify-center gap-3">
           <img src="/logo.svg" alt="plann.er" />
-          <p className="text-zinc-300 text-lg">
+          <p className="text-zinc-500 text-lg">
             Convide seus amigos e planeje sua próxima viagem!
           </p>
         </div>
@@ -105,11 +105,11 @@ export function CreateTripPage() {
         <p className="text-sm text-zinc-600">
           Ao planejar sua viagem pela plann.er você automaticamente concorda
           <br /> com os nossos{" "}
-          <a href="#" className="text-zinc-300 underline">
+          <a href="#" className="text-zinc-500 underline">
             termos de uso
           </a>{" "}
           e{" "}
-          <a href="#" className="text-zinc-300 underline">
+          <a href="#" className="text-zinc-500 underline">
             políticas de privacidade
           </a>
         </p>
