@@ -9,7 +9,7 @@ export function CreateActivityModal({
   closeCreateActivityModal,
 }: CreateActivityModalProps) {
   return (
-    <div className="fixed inset-0 bg-white flex items-center justify-center">
+    <div className="fixed inset-0 bg-black/60 flex items-center justify-center">
       <div className="w-[640px] rounded-xl py-5 px-6  bg-zinc-100 space-y-5">
         <div className="space-y-2">
           <div className="flex items-center justify-between">
